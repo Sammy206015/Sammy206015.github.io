@@ -136,6 +136,18 @@ footer { padding: 2rem 0; border-top: 1px solid var(--line); color: var(--muted)
   header.site .wrap { justify-content: center; }
 }
 
+/* Profile photo */
+.avatar {
+  display: block;
+  width: 250px; height: 250px;
+  border-radius: 50%;
+  object-fit: cover; object-position: center top;
+  border: 4px solid var(--surface);
+  box-shadow: 0 0 0 3px var(--accent), 0 14px 30px -14px rgba(20, 33, 61, .5);
+  margin-bottom: 1.4rem;
+}
+.hero .wrap > div:first-child > :nth-child(5) { animation-delay: .48s; }
+
 /* Email and phone rows */
 .contact-lines { list-style: none; padding: 0; display: grid; gap: 1rem; margin-bottom: 1.6rem; }
 .contact-lines a {
